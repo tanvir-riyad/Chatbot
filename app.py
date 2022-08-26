@@ -33,7 +33,6 @@ Response = {
     "thanks" :"My pleasure"
     
 
-
 }
 
 @app.get("/")
