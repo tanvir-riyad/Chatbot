@@ -1,5 +1,4 @@
-from email import message
-from urllib import response
+
 from flask import Flask, render_template, request, jsonify
 
 #from chat import get_response
@@ -11,6 +10,10 @@ Response = {
     "Hey": "Hi, How can I help you?",
 
     "hi": "Hi, How can I help you?",
+
+    "Hello": "Hi, How can I help you?",
+
+    "hello": "Hi, How can I help you?",
 
     "Hi": "Hi, How can I help you?",
 
