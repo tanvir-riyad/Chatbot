@@ -5,10 +5,10 @@ according to your local host.
 
 following question can be asked to bot:
 
-Hi
-hello
-who are you?
-what is your name?
-what is the capital of germany?
-thanks
-bye
+Hi,
+hello,
+who are you?,
+what is your name?,
+what is the capital of germany?,
+thanks,
+bye,
