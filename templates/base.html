@@ -15,25 +15,38 @@
                     <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
                 </div>
                 <div class="chatbox__content--header">
-                    <h4 class="chatbox__heading--header">Chat Bot</h4>
-                    <p class="chatbox__description--header">Hi. My name is Alexa & I am a ChatBot. How can I help you?</p>
+                    <h4 class="chatbox__heading--header">M2H Bot</h4>
+                    <p class="chatbox__description--header">Hi, I am a Chatbot from M2H. How can I help you?</p>
                 </div>
             </div>
             <div class="chatbox__messages">
+                <!-- <p >Hi, Ask me anything</p> -->
                 <div></div>
             </div>
             <div class="chatbox__footer">
-                <input type="text" placeholder="Write a message...">
-                <button class="chatbox__send--footer send__button">Send</button>
+                <input type="text" placeholder="Ask me anything..." id="text-input">
+                <button type="button" id="recordAudio" class="chatbox__send--footer speaker__button"><img src="{{ url_for('static', filename='images/microphone-icon.png') }}"/></button> &nbsp; <span id="action"></span>
+                <!-- <button type="button" onclick="runSpeechRecognition()" class="chatbox__send--footer speaker__button"><img src="{{ url_for('static', filename='images/microphone-icon.png') }}"/></button>&nbsp; <span id="action"></span> -->
+                <button  class="chatbox__send--footer send__button"><img src="{{ url_for('static', filename='images/send-icon.png') }}"/></button>
+            </div>
+            <div class="texts">
             </div>
         </div>
         <div class="chatbox__button">
-            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}"/></button>
         </div>
     </div>
 </div>
 
     <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    <script>
+
+       
+
+            
+    </script>
+    <!-- <script src="microsoft.cognitiveservices.speech.sdk.bundle-min.js"></script> -->
+    <!-- <script type="text/javascript" src="{{ url_for('static', filename='mic.js') }}"></script> -->
 
 </body>
 </html>

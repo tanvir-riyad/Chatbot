@@ -60,6 +60,19 @@ body {
     cursor: pointer;
 }
 
+.speaker__button {
+    padding: 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.speaker__button img{
+    width: 24px;
+    height: 24px;
+    
+}
 
 /* HEADER */
 .chatbox__header {
@@ -183,6 +196,8 @@ body {
 
 .chatbox__send--footer {
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .chatbox__button button,
