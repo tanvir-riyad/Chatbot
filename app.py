@@ -6,7 +6,7 @@ import json
 
 #from chat import get_response
 
-openai.api_key = "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"
+openai.api_key = ""
 
 Fixed_Response = {
     "Hi": "Hi, How can I help you?",
